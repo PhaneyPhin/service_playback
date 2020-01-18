@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <style>
+      div.frame-contain {
+        z-index:-1;
+        height:100vh;
+        position: fixed;
+        left:0;
+        right:0;
+        top:0;
+        bottom:0;
+        width:100%;
+        overflow-x: hidden;
+        overflow: hidden;
+        
+        }
+
+        iframe.embed {
+            width: 148%;
+            height: 1385px;
+            margin-left: -24%;
+            margin-top: -41px;
+            /* margin-bottom: 10vh; */
+        }
+        iframe,video{
+        cursor: pointer;
+}
+  </style>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<body>
+  <div class="frame-contain">
+    <iframe class="embed" id="embed" src="<%=url%>"></iframe>
+  </div>
+  <script>
+
+  </script>
+</body>
+
+</html>
