@@ -8,6 +8,6 @@
     - to stop service run "pm2 stop service_mdvr"
     - to restart process run "pm2 restart service_mdvr"
     - to delete process run "pm2 delete service_mdvr"
-    - to run production <after server restart service also restart> start or restart process then run "pm2 startup"
+    - to run production ""after server restart service also restart"" start or restart process then run "pm2 startup"
 
 Don't forget to open firewall on port 3000
