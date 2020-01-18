@@ -110,7 +110,7 @@ router.get('/record_data',(req,res)=>{
 router.get("/getplaybacksdcard",(req,res)=>{
   var {device_id,date,username,password}=req.query;
 
-  res.render('index',{url:`http://203.150.210.31/playback/${device_id}/2/${new Date(date).toISOString()}+0700/${username}/${password}`})
+  res.render('index',{url:`=${global.host}/playback/${device_id}/2/${new Date(date).toISOString()}+0700/${username}/${password}`})
 })
 router.get('/playbacksdcard', function (req, res, next) {
   var { device_id, date,username,password } = req.query;
